@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylish E-Commerce</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 2em;
+        }
+
+        .product {
+            background-color: #fff;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            margin: 1em;
+            padding: 1em;
+            width: 300px;
+            text-align: center;
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .product:hover {
+            transform: scale(1.05);
+        }
+
+        .product img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 1em;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        .price {
+            font-weight: bold;
+            color: #e44d26;
+            margin-top: 0.5em;
+        }
+
+        button {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 0.5em 1em;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 0.5em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Stylish E-Commerce</h1>
+    </header>
+
+    <main>
+        <div class="product">
+            <img src="apple.jpg" alt="1kg Apple">
+            <h2>1kg Apple</h2>
+            <p>Delicious and nutritious apples for your health.</p>
+            <p class="price">₹200</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="samsung_s23_ultra.jpg" alt="Samsung S23 Ultra">
+            <h2>Samsung S23 Ultra</h2>
+            <p>Experience the latest in smartphone technology.</p>
+            <p class="price">₹80,000</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="boat_headphones.jpg" alt="Boat Headphones">
+            <h2>Boat Headphones</h2>
+            <p>Immerse yourself in music with these high-quality headphones.</p>
+            <p class="price">₹2,000</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="macbook_air_m1.jpg" alt="MacBook Air M1">
+            <h2>MacBook Air M1</h2>
+            <p>Powerful and sleek, the MacBook Air with M1 chip.</p>
+            <p class="price">₹75,000</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="nike_jordans.jpg" alt="Nike Jordans">
+            <h2>Nike Jordans</h2>
+            <p>Step out in style with these iconic Nike Jordans.</p>
+            <p class="price">₹20,000</p>
+            <button>Add to Cart</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Stylish E-Commerce</p>
+    </footer>
+</body>
+</html>
